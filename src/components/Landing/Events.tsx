@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { Typography, Card, List, Tag, Empty, Spin, Badge, Button } from 'antd'
-import { Calendar, MapPin, Users, Clock, Star, ArrowRight, Sparkles, Trophy, Heart, TreePine } from 'lucide-react'
+import { Typography, Card, List, Tag, Empty, Spin, Button } from 'antd'
+import { Calendar, Users, Clock, Star, ArrowRight, Sparkles, Trophy, Heart } from 'lucide-react'
 import { supabase } from '../../config/supabase'
 import dayjs from 'dayjs'
 

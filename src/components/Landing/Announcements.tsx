@@ -1,22 +1,11 @@
 import React, { useState, useEffect } from 'react'
-import { Typography, Card, Button, List, Tag, Empty, Spin, Badge } from 'antd'
+import { Typography, Card, Button, List, Tag, Empty, Spin } from 'antd'
 import { Download, Calendar, FileText, Bell, AlertCircle, ExternalLink } from 'lucide-react'
 import { supabase } from '../../config/supabase'
 import dayjs from 'dayjs'
 
 const { Title, Paragraph } = Typography
 
-// Badge styles for better maintainability
-const badgeStyles = {
-  color: 'white',
-  fontSize: '14px',
-  fontWeight: '700',
-  padding: '12px 24px',
-  borderRadius: '25px',
-  background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-  boxShadow: '0 8px 32px rgba(102, 126, 234, 0.3)',
-  border: 'none'
-}
 
 interface Announcement {
   id: string

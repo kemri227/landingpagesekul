@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Typography, Carousel, Badge } from 'antd'
-import { ArrowRight, Sparkles, Trophy } from 'lucide-react'
+import { ArrowRight, Sparkles} from 'lucide-react'
 
 const { Title, Paragraph } = Typography
 
@@ -70,7 +70,7 @@ export const HeroSection = () => {
                         <Badge 
                           count={
                             <div className="flex items-center space-x-2 bg-gradient-to-r from-green-500 to-emerald-600 text-white px-4 py-2 rounded-full shadow-md backdrop-blur-sm">
-                              <Trophy className="w-4 h-4" />
+
                               <span className="font-semibold text-sm">Terakreditasi A</span>
                             </div>
                           }
